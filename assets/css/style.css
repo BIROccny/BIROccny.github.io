@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  text-transform: capitalize; /*uppercase*/
 }
 
 #header .logo a {
@@ -825,7 +825,7 @@ section {
   right: 30px;
   bottom: 0;
   z-index: 3;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;  /*all ease-in-out 0.3s*/
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
@@ -1511,7 +1511,12 @@ section {
 }
 
 .portfolio-details .portfolio-details-container {
-  position: relative;
+  /*add by test*/
+  width: 40%;
+  position: relative; /*relative*/
+  align-items: center;
+  margin:0 auto;
+  text-align: center;
 }
 
 .portfolio-details .portfolio-details-carousel {
@@ -2279,4 +2284,23 @@ section {
   background: #1bbd36;
   color: #fff;
   text-decoration: none;
+}
+
+/*hang hu add*/
+.intro_left{
+  float:left;
+  width:50%;
+}
+.photo_right{
+  float:right;
+  width:50%;
+}
+
+.intro_right{
+  float:right;
+  width:50%;
+}
+.photo_left{
+  float:left;
+  width:50%;
 }
